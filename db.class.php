@@ -4,16 +4,10 @@
    class db {
 
 
-      
-      
       //host
-      private $host = '127.0.0.1';
+      private $host = 'localhost';
 
 
-      //banco
-      private $database = 'tww';
-
-      
       //usuario
       private $usuario = 'root';
       
@@ -22,11 +16,17 @@
       private $senha = '';
 
 
+      //banco
+      private $database = 'tww';
+
+
+
          public function conecta_mysql(){
 
             //cria a conecao
-            $con = mysqli_cnnect($this->$host, $this->$usuario, $this->$senha, $this->$database);
+            $con = mysqli_connect($this->$host, $this->$usuario, $this->$senha, $this->$database);
 
+            
             //utf8
             mysqli_set_charset($con, 'utf-8');
          
