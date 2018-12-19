@@ -45,8 +45,10 @@
 	    	<div class="col-md-4">
 	    		<h3>Inscreva-se já.</h3>
 	    		<br />
-				<form method="post" action="registra_usuario.php" id="formCadastrarse">
-					<div class="form-group">
+
+                <form method="post" action="registra_usuario.php" id="formCadastrarse">
+
+                    <div class="form-group">
 						<input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuário" required="requiored">
 					</div>
 
@@ -60,6 +62,7 @@
 					
 					<button type="submit" class="btn btn-primary form-control">Inscreva-se</button>
 				</form>
+
 			</div>
 			<div class="col-md-4"></div>
 
