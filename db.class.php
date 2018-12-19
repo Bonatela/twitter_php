@@ -12,7 +12,7 @@
         private $senha = '';
 
         //banco de dados
-        private $database = 'twitter_clone';
+        private $database = 'tww';
 
         public function conecta_mysql(){
 
